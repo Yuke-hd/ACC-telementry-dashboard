@@ -18,7 +18,18 @@ Poor man's simrace dashboard for Assetto Corsa Competizione
 5. M3/M4 x 20 or longer screws and nuts
 
 ## Wiring
-TBA
+Remove the headers on the TM1638 board, solder wires directly on the soldering pads.
+
+![img](/img/wiring.jpg)
+This is base on my pin setting in code, 
+```
+// TM1638 setup
+#define STROBE_TM 4     // strobe = GPIO connected to strobe line of module
+#define CLOCK_TM 5      // clock = GPIO connected to clock line of module
+#define DIO_TM 7        // data = GPIO connected to data line of module
+// WS2812 setup
+const int ledPin = 2;
+```
 
 # Installation
 ## Python
