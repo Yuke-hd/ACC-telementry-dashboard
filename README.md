@@ -14,11 +14,11 @@ Poor man's simrace dashboard for Assetto Corsa Competizione
 1. Arduino Nano compatiable boards
 2. TM1638 LED&KEY module ([Link](https://www.aliexpress.com/item/1005006579759157.html?spm=a2g0o.productlist.main.1.2c7c1Lbp1LbpEF&algo_pvid=3174a045-519d-49f8-9d37-3236dceaf910&algo_exp_id=3174a045-519d-49f8-9d37-3236dceaf910-0&pdp_npi=4%40dis%21AUD%219.44%212.74%21%21%2144.12%2112.79%21%402101e58b17112576469118676e7724%2112000037720701785%21sea%21AU%212033487944%21&curPageLogUid=K0M7I2tTwvw8&utparam-url=scene%3Asearch%7Cquery_from%3A))
 3. 8 bit ws2812b led module
-4. 3D printed case (uploading...)
+4. 3D printed case
 5. M3/M4 x 20 or longer screws and nuts
 
 ## Wiring
-Remove the headers on the TM1638 board, solder wires directly on the soldering pads.
+Remove the headers on the TM1638 board, solder wires directly on the soldering pads to save space.
 
 ![img](/img/wiring.jpg)
 This is base on my pin setting in code, 
